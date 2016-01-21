@@ -25,9 +25,7 @@ t_tris		*check_tris(t_tris *tris)
 				|| coord[i].y > 4)
 			return (0);
 	}
-	if (check_tris_form(tris) == 0)
-		return (NULL);
-	if ((tris = order_tris(tris)) == 0)
+	if (check_tris_form(tris) == 0 || (tris = order_tris(tris)) == 0)
 		return (NULL);
 	return (tris);
 }
