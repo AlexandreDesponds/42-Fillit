@@ -6,8 +6,9 @@ qu’il devra ensuite agencer entre eux pour former le plus petit carré possibl
 bien entendu de trouver ce plus petit carré le plus rapidement possible malgré un nombre
 d’agencements qui croît de manière explosive avec chaque pièce supplémentaire.
 
+    100/100 :)
+
 ## Authors
 Alexandre Desponds
-Robin Didier
 
-# 100/100 :)
+Robin Didier
